@@ -1,0 +1,46 @@
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git init
+Reinitialized existing Git repository in C:/Users/Samandar/PycharmProjects/git_darsi/.git/
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git status
+On branch master
+
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Loyha/file.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git commit -m "Fayl o'zgartirildi"
+Author identity unknown
+
+*** Please tell me who you are.
+
+
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Samandar@HOME-PC.(none)')
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git config --global user.name "Samanc1k1"
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi>  git config --global user.name "Samandar"
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git log
+fatal: your current branch 'master' does not have any commits yet
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi>  git commit -m "Fayl o'zgartirildi"
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git log
+commit d8dceb9b4f91b617cf9808c7502a5969dbe19736 (HEAD -> master)
+Author: Samandar <samandarshavkatov15@gmail.com>
+Date:   Tue Oct 1 11:29:49 2024 +0500
+
+    Fayl o'zgartirildi
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git remote add origin https://github.com/Samanc1k1/Loyha.git
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git branch -M main
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 267 bytes | 133.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Samanc1k1/Loyha.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+(.venv) PS C:\Users\Samandar\PycharmProjects\git_darsi>
